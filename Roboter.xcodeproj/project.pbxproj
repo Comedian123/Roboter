@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51AF0B031F726A9D009DB0F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51AF0B021F726A9D009DB0F4 /* main.cpp */; };
+		51AF0B0D1F726AD2009DB0F4 /* robot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51AF0B091F726AD2009DB0F4 /* robot.cpp */; };
+		51AF0B0E1F726AD2009DB0F4 /* target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51AF0B0C1F726AD2009DB0F4 /* target.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		51AF0AFF1F726A9D009DB0F4 /* Roboter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Roboter; sourceTree = BUILT_PRODUCTS_DIR; };
-		51AF0B021F726A9D009DB0F4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		51AF0B091F726AD2009DB0F4 /* robot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = robot.cpp; path = "../../../Downloads/tag-3-material/robot.cpp"; sourceTree = "<group>"; };
+		51AF0B0A1F726AD2009DB0F4 /* target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = target.h; path = "../../../Downloads/tag-3-material/target.h"; sourceTree = "<group>"; };
+		51AF0B0B1F726AD2009DB0F4 /* robot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = robot.h; path = "../../../Downloads/tag-3-material/robot.h"; sourceTree = "<group>"; };
+		51AF0B0C1F726AD2009DB0F4 /* target.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = target.cpp; path = "../../../Downloads/tag-3-material/target.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		51AF0B011F726A9D009DB0F4 /* Roboter */ = {
 			isa = PBXGroup;
 			children = (
-				51AF0B021F726A9D009DB0F4 /* main.cpp */,
+				51AF0B091F726AD2009DB0F4 /* robot.cpp */,
+				51AF0B0B1F726AD2009DB0F4 /* robot.h */,
+				51AF0B0C1F726AD2009DB0F4 /* target.cpp */,
+				51AF0B0A1F726AD2009DB0F4 /* target.h */,
 			);
 			path = Roboter;
 			sourceTree = "<group>";
@@ -119,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51AF0B031F726A9D009DB0F4 /* main.cpp in Sources */,
+				51AF0B0D1F726AD2009DB0F4 /* robot.cpp in Sources */,
+				51AF0B0E1F726AD2009DB0F4 /* target.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
